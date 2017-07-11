@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
 	$bootSlider = {
-		interval : 3000,
+		interval : 5000,
 		animate : "opacity" // opacity || flipping
 	};
 
@@ -14,7 +14,7 @@ function _sliderInit() {
 
 	$slideInterval = window.$bootSlider != undefined &&
 					"interval" in $bootSlider &&
-					$bootSlider.interval !== "" ? $bootSlider.interval : 3000;
+					$bootSlider.interval !== "" ? $bootSlider.interval : 5000;
 
 	$slideAnimate = window.$bootSlider != undefined &&
 					"animate" in $bootSlider &&
